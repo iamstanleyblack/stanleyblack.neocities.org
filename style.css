@@ -223,6 +223,10 @@ strong { /* this styles bold text */
   font-size:smaller;
   background-color:#13092D;
 }
+#marquee-div{
+  /* background-color:#13092D; */
+  border:1px solid #f4eff4;
+}
 
 /* so you wanna change the width of your page? 
 by default, the container width is 900px.
@@ -257,7 +261,3 @@ and then subtrack it by 100. use this new number as the
   
 }
 
-#marquee-div{
-  background-color:#13092D;
-  border:1px solid #ED64F5;
-}
