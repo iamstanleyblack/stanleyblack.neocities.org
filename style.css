@@ -26,7 +26,6 @@ and then link it! Many fonts have separate files for each style
 */
  @font-face {
     font-family: 'Acidic';
-    font-style: ;
     font-weight: bold;
     src: local('Acidic'), url('Acidic.woff') format('woff');
     }
@@ -42,6 +41,7 @@ body {
   background-size:65px;
   color:#fceaff;
   background-image:var(--body-bg-image);
+  cursor: url('/assets/mec332.cur'), auto;
 }
 
 * {
@@ -90,14 +90,23 @@ EXCEPT for the navigation */
 
 
 #header {
-  width:100%;
+  /* width:100%;
   background-color:#5e4e8c; /* header color here! */
-  height:150px;
+  /* height:180px;
+  width: 100%; */
+
   /* this is only for a background image! */
   /* if you want to put images IN the header, 
   you can add them directly to the <div id="header"></div> element! */
+  /* background-image:var(--header-image);
+  background-size:100%; */ 
+  width: 100%;
+  height: 150px;
+  text-align: center;
   background-image:var(--header-image);
-  background-size:100%;
+  /* border: 3px outset gold; */
+  padding: 12px;
+  color: white;
 }
 
 /* navigation section!! */
